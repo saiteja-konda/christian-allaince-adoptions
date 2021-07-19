@@ -5,7 +5,7 @@ import WithSubnavigation from '../components/navigation/WithSubnavigation'
 import SmallWithSocial from "../components/Footer/index"
 import styles from '../styles/Home.module.css'
 import { Box, Center, Container, Heading, Table, Tbody, Td, Text, Tr } from "@chakra-ui/react"
-import Main from '../components/homeSection/main'
+// import Main from '../components/homeSection/main'
 import { Row, Col } from 'react-simple-flex-grid';
 import "react-simple-flex-grid/lib/main.css";
 
