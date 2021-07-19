@@ -25,7 +25,7 @@ export default function Home() {
                 Whatever your adoption dreams, plans, or hopes may be, FCCA will provide you with a confidential and thorough explanation of the types of adoption available to you, including the cost, timeline, and risk involved.  If you are pregnant and considering adoption, all of our services to you will be free of charge, even if you decide not to make an adoption plan for your child.
               </Text>
               <Text as="p" fontSize="md" mt="4" mb="4">
-                FCCA operates in accordance with all state and federal non-discrimination laws and regulations. In addition, as a member of the Evangelical Council on Financial Accountability (ECFA), we are committed to ethical, responsible, and transparent financial stewardship. To that end, FCCA's latest Form 990 is available upon request.
+                FCCA operates in accordance with all state and federal non-discrimination laws and regulations. In addition, as a member of the Evangelical Council on Financial Accountability (ECFA), we are committed to ethical, responsible, and transparent financial stewardship. To that end, FCCA&apos;s latest Form 990 is available upon request.
               </Text>
               <Box color="blue.600">
                 <blockquote style={{ textAlign: "center", lineHeight: "50px", fontStyle: "oblique", }}>
