@@ -11,17 +11,7 @@ import {
   export default function SplitScreen() {
     return (
       <Stack minH={'10vh'} direction={{ base: 'column', md: 'row' }}>
-        
-        <Flex flex={1}>
-          <Image
-            alt={'Login Image'}
-            objectFit={'cover'}
-            src={
-              'child.jpg'
-            }
-          />
-        </Flex>
-        <Flex p={8} flex={1} align={'center'} justify={'center'}>
+        <Flex p={8} flex={1} align={'center'} justify={'center'} bgColor={"blackAlpha.50"}>
           <Stack spacing={6} w={'full'} maxW={'lg'}>
             <Heading fontSize={{ base: '3xl', md: '4xl', lg: '5xl' }}>
               <Text
@@ -60,7 +50,15 @@ import {
               <Button rounded={'full'}>How It Works</Button>
             </Stack> */}
           </Stack>
-        
+        </Flex>
+        <Flex flex={2}>
+          <Image
+            alt={'Login Image'}
+            objectFit={'cover'}
+            src={
+              'child.jpg'
+            }
+          />
         </Flex>
       </Stack>
     );

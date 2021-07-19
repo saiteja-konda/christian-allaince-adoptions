@@ -42,8 +42,8 @@ export default function Home() {
                 FCCA Uses Trust-Based Relational Intervention (TBRI) for Parent Training. TBRI teaches families how to create strong attachments through building bonds of affection and trust, by effectively dealing with any learning or behavioral disorders, and by disciplining with love and without fear. Click Here for Flyer Information.
               </Text>
             </Col>
-            <Col md={3} sm={4} xs={12}>
-              <Table variant="simple">
+            <Col md={3} sm={4} xs={12} >
+              <Table variant="simple" bgColor={"blackAlpha.50"}>
                 <Tbody>
                   <Tr>
                     <Td>E-Heartbeat Archives</Td>
