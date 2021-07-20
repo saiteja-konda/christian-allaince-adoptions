@@ -13,8 +13,7 @@ function AboutUs() {
             <Col md={9} sm={8} xs={12}>
               <Heading color="blue.600" pt="4" pb="4" as="h4" size="md" >About Us</Heading>
               <Text as="p" fontSize="md" mt="4" mb="4">
-
-                With many years of experience, CAAFK is one of the largest private agencies in Alabama, in terms of the numbers of children placed each year.  The agency had its official beginning as "Family Connections" on Valentine's Day, February 14, 1983.  This was an appropriate day for an agency founded on business of the heart.
+                With many years of experience, CAAFK is one of the largest private agencies in Alabama, in terms of the numbers of children placed each year.  The agency had its official beginning as &quot;Family Connections&quot; on Valentine&apos;s Day, February 14, 1983.  This was an appropriate day for an agency founded on business of the heart.
               </Text>
               <Text as="p" fontSize="md" mt="4" mb="4">
                 Founder Audrey Foster had worked at a county adoption agency long enough to learn that there were many children waiting to be adopted, and that they needed advocates.  She knew that if people heard about these children and were assisted through the adoption process with respect and good humor, they would welcome waiting children into their families.
@@ -23,7 +22,7 @@ function AboutUs() {
                 So, with a telephone, a secretary, and two donated rooms in the back of a church, Audrey began the work. Volunteers, mostly adoptive parents, joined the effort.  The first year, the agency placed 16 children.
               </Text>
               <Text as="p" fontSize="md" mt="4" mb="4">
-                Now, over 36 years later, the agency has placed (directly or cooperatively) over 5300 children from the United States and around the world into adoptive families.  Audrey's daughter, Alison Foster Davis, served as the second Executive Director from May 2001 through December 2016; the current Executive Director is Wayne Mott, who has been with CAAFK since 2005.
+                Now, over 36 years later, the agency has placed (directly or cooperatively) over 5300 children from the United States and around the world into adoptive families.  Audrey&apos;s daughter, Alison Foster Davis, served as the second Executive Director from May 2001 through December 2016; the current Executive Director is Wayne Mott, who has been with CAAFK since 2005.
               </Text>
               <Text as="p" fontSize="md" mt="4" mb="4">
                 Six CAAFK offices are located throughout Alabama, with the main office in Modesto, and branch offices in Sacramento, Fresno, Carlsbad, Ventura, and San Luis Obispo.  The agency is licensed statewide and employs approximately 35 people, with many faithful volunteers.
@@ -84,10 +83,10 @@ function AboutUs() {
                 Because we value your privacy, we have taken the necessary precautions to be in compliance with the Alabama Online Privacy Protection Act. We therefore will not distribute your personal information to outside parties without your consent.
               </Text>
               <Text as="b" fontSize="md" mt="4" mb="4">
-                Children's Online Privacy Protection Act Compliance
+                Children&apos;s Online Privacy Protection Act Compliance
               </Text>
               <Text as="p" fontSize="md" mt="4" mb="4">
-                We are in compliance with the requirements of Children's Online Privacy Protection Act; we do not collect any information from anyone under 13 years of age.  Our website, products and services are all directed to people who are at least 13 years old or older.
+                We are in compliance with the requirements of Children&apos;s Online Privacy Protection Act; we do not collect any information from anyone under 13 years of age.  Our website, products and services are all directed to people who are at least 13 years old or older.
               </Text>
               <Text as="b" fontSize="md" mt="4" mb="4">
                 Online Privacy Policy Only
