@@ -2,20 +2,20 @@ export const NAV_ITEMS = [
     {
         label: 'Home',
         href: "/",
-        children: [
-            { label: 'E-Heartbeat Archives', subLabel: 'Trending Design to inspire you', href: '/', },
-            { label: 'Annual Reports', subLabel: 'Up-and-coming Designers', href: '/', },
-        ],
+        // children: [
+        //     { label: 'E-Heartbeat Archives', subLabel: 'Trending Design to inspire you', href: '/', },
+        //     { label: 'Annual Reports', subLabel: 'Up-and-coming Designers', href: '/', },
+        // ],
     },
     {
         label: 'About Us',
         href: 'about-us',
-        children: [
-            { label: "Licensing, Accreditation, and Affiliations", subLabel: 'Find your dream design job', href: "#" },
-            { label: "Executive Director", subLabel: 'Find your dream design job', href: "#" },
-            { label: "Our Awards", subLabel: 'Find your dream design job', href: "#" },
-            { label: "Career Opportunities", subLabel: 'Find your dream design job', href: "#" },
-        ]
+        // children: [
+        //     { label: "Licensing, Accreditation, and Affiliations", subLabel: 'Find your dream design job', href: "#" },
+        //     { label: "Executive Director", subLabel: 'Find your dream design job', href: "#" },
+        //     { label: "Our Awards", subLabel: 'Find your dream design job', href: "#" },
+        //     { label: "Career Opportunities", subLabel: 'Find your dream design job', href: "#" },
+        // ]
     },
     {
         label: 'Adoption Services',
@@ -41,9 +41,9 @@ export const NAV_ITEMS = [
             { label: "Preparing for Transracial Adoption", subLabel: "bla bla", href: "#" },
             { label: "Is Special Needs Adoption Right for You?", subLabel: "bla bla", href: "#" },
             { label: "Termination of Parental Rights", subLabel: "bla bla", href: "#" },
-            { label: "Finalizing an Adoption in California", subLabel: "bla bla", href: "#" },
-            { label: "California Adoption Laws", subLabel: "bla bla", href: "#" },
-            { label: "Adoption in California", subLabel: "bla bla", href: "#" },
+            { label: "Finalizing an Adoption in Alabama", subLabel: "bla bla", href: "#" },
+            { label: "Alabama Adoption Laws", subLabel: "bla bla", href: "#" },
+            { label: "Adoption in Alabama", subLabel: "bla bla", href: "#" },
             { label: "Adoption Tips", subLabel: "bla bla", href: "#" },
             { label: "Resources", subLabel: "bla bla", href: "#" },
         ]

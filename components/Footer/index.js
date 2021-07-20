@@ -7,7 +7,7 @@ import {
   useColorModeValue,
   VisuallyHidden,
 } from '@chakra-ui/react';
-import { FaInstagram, FaTwitter, FaYoutube } from 'react-icons/fa';
+import { FaFacebook, FaInstagram, FaTwitter, FaYoutube } from 'react-icons/fa';
 
 const SocialButton = ({
   children,
@@ -40,7 +40,7 @@ export default function SmallWithSocial() {
   return (
     <Box
       bg={useColorModeValue('gray.50', 'gray.900')}
-      color={useColorModeValue('gray.700', 'gray.200')}>
+      color={useColorModeValue('cyan.700', 'cyan.200')}>
       <Container
         as={Stack}
         maxW={'6xl'}
@@ -51,14 +51,8 @@ export default function SmallWithSocial() {
         align={{ base: 'center', md: 'center' }}>
         <Text>© 2021  Christian Alliance Adoptions - a Non-Profit, Full Service Adoption Agency | All rights reserved</Text>
         <Stack direction={'row'} spacing={6}>
-          <SocialButton label={'Twitter'} href={'#'}>
-            <FaTwitter />
-          </SocialButton>
-          <SocialButton label={'YouTube'} href={'#'}>
-            <FaYoutube />
-          </SocialButton>
-          <SocialButton label={'Instagram'} href={'#'}>
-            <FaInstagram />
+          <SocialButton label={'Facebook'} href={'https://www.facebook.com/christianallianceadoptionforkids/'}>
+            <FaFacebook />
           </SocialButton>
         </Stack>
       </Container>
