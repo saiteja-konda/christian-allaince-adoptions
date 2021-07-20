@@ -50,27 +50,27 @@ export const NAV_ITEMS = [
 
 
     },
-    {
-        label: 'Are You Pregnant?',
-        href: 'are-you-pregnant',
-        children: [
-            { label: "How to Find an Adoptive Family", subLabel: "bla", href: "#" },
-            { label: "Open Adoption with Your Baby", subLabel: "bla", href: "#" },
-            { label: "Keeping Your Adoption Plan Private", subLabel: "bla", href: "#" },
-            { label: "Adoption with or without Birth Father Consent", subLabel: "bla", href: "#" },
-            { label: "Native American Heritage and Adoption", subLabel: "bla", href: "#" },
-            { label: "Can a Birth Mother Get Paid for Adoption?", subLabel: "bla", href: "#" },
-            { label: "24/7 Adoption Counseling and Support", subLabel: "bla", href: "#" },
-            { label: "Revoking Consent to Adoption", subLabel: "bla", href: "#" },
-            { label: "Paperwork Required to Make Adoption Plan", subLabel: "bla", href: "#" },
-            { label: "Adoption Without an Adoption Agency?", subLabel: "bla", href: "#" },
-            { label: "Too Late to Choose Adoption?", subLabel: "bla", href: "#" },
-            { label: "Adoption or Abortion?", subLabel: "bla", href: "#" },
-            { label: "Unplanned Pregnancy Help and Options", subLabel: "bla", href: "#" },
-            { label: "Confidential Inquiry", subLabel: "bla", href: "#" },
-        ]
-    },
-    { label: 'Family Camp', href: 'family-camp', },
+    // {
+    //     label: 'Are You Pregnant?',
+    //     href: 'are-you-pregnant',
+    //     children: [
+    //         { label: "How to Find an Adoptive Family", subLabel: "bla", href: "#" },
+    //         { label: "Open Adoption with Your Baby", subLabel: "bla", href: "#" },
+    //         { label: "Keeping Your Adoption Plan Private", subLabel: "bla", href: "#" },
+    //         { label: "Adoption with or without Birth Father Consent", subLabel: "bla", href: "#" },
+    //         { label: "Native American Heritage and Adoption", subLabel: "bla", href: "#" },
+    //         { label: "Can a Birth Mother Get Paid for Adoption?", subLabel: "bla", href: "#" },
+    //         { label: "24/7 Adoption Counseling and Support", subLabel: "bla", href: "#" },
+    //         { label: "Revoking Consent to Adoption", subLabel: "bla", href: "#" },
+    //         { label: "Paperwork Required to Make Adoption Plan", subLabel: "bla", href: "#" },
+    //         { label: "Adoption Without an Adoption Agency?", subLabel: "bla", href: "#" },
+    //         { label: "Too Late to Choose Adoption?", subLabel: "bla", href: "#" },
+    //         { label: "Adoption or Abortion?", subLabel: "bla", href: "#" },
+    //         { label: "Unplanned Pregnancy Help and Options", subLabel: "bla", href: "#" },
+    //         { label: "Confidential Inquiry", subLabel: "bla", href: "#" },
+    //     ]
+    // },
+    // { label: 'Family Camp', href: 'family-camp', },
     { label: 'Contact Us', href: 'contact-us', },
 
 ];
