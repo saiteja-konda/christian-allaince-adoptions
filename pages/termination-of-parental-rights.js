@@ -1,5 +1,5 @@
 import React from 'react'
-import Layout from '../../components/core/Layout'
+import Layout from '../components/core/Layout'
 import { Box, Center, Container, Heading, ListItem, Table, Tbody, Td, Text, Tr, UnorderedList } from "@chakra-ui/react"
 import { Row, Col } from 'react-simple-flex-grid';
 import "react-simple-flex-grid/lib/main.css";

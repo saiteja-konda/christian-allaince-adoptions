@@ -21,32 +21,42 @@ export const NAV_ITEMS = [
         label: 'Adoption Services',
         href: "adoption-services",
         children: [
-            { label: "Adopt a Waiting Foster Child", subLabel: 'Find your dream design job', href: "#" },
-            { label: "Adopt a Child Internationally", subLabel: 'Find your dream design job', href: "#" },
-            { label: "Adopt a Baby through Private Adoption", subLabel: 'Find your dream design job', href: "#" },
-            { label: "Adoption without an Agency", subLabel: 'Find your dream design job', href: "#" },
-            { label: "Guardianship Adoption", subLabel: 'Find your dream design job', href: "#" },
+            { label: "Adopt a Waiting Foster Child", subLabel: 'Find your dream design job', href: "adopt-a-waiting-foster-child" },
+            { label: "Adopt a Child Internationally", subLabel: 'Find your dream design job', href: "adopt-a-child-internationally" },
+            { label: "Adopt a Baby through Private Adoption", subLabel: 'Find your dream design job', href: "adopt-a-baby-through-private-adoption" },
+            { label: "Adoption without an Agency", subLabel: 'Find your dream design job', href: "adoption-without-an-agency" },
+            { label: "Guardianship Adoption", subLabel: 'Find your dream design job', href: "guardianship-adoption" },
         ]
-
     },
     {
         label: 'The Process',
         href: "the-process",
         children: [
-            { label: "Find an Adoption Opportunity", subLabel: "bla bla", href: "#" },
-            { label: "Need an Adoption Home Study?", subLabel: "bla bla", href: "#" },
-            { label: "How Much is Adoption?", subLabel: "bla bla", href: "#" },
-            { label: "How Long Does It Take to Adopt?", subLabel: "bla bla", href: "#" },
-            { label: "What is Open Adoption?", subLabel: "bla bla", href: "#" },
-            { label: "Preparing for Transracial Adoption", subLabel: "bla bla", href: "#" },
-            { label: "Is Special Needs Adoption Right for You?", subLabel: "bla bla", href: "#" },
-            { label: "Termination of Parental Rights", subLabel: "bla bla", href: "#" },
-            { label: "Finalizing an Adoption in Alabama", subLabel: "bla bla", href: "#" },
-            { label: "Alabama Adoption Laws", subLabel: "bla bla", href: "#" },
-            { label: "Adoption in Alabama", subLabel: "bla bla", href: "#" },
-            { label: "Adoption Tips", subLabel: "bla bla", href: "#" },
-            { label: "Resources", subLabel: "bla bla", href: "#" },
+            { label: "Find an Adoption Opportunity", subLabel: "bla bla", href: "find-an-adoption-opportunity" },
+            { label: "Need an Adoption Home Study?", subLabel: "bla bla", href: "need-an-adoption-home-study" },
+            { label: "How Much is Adoption?", subLabel: "bla bla", href: "how-much-is-adoption" },
+            { label: "How Long Does It Take to Adopt?", subLabel: "bla bla", href: "how-long-does-it-take-to-adopt" },
+            { label: "What is Open Adoption?", subLabel: "bla bla", href: "what-is-open-adoption" },
+            { label: "Preparing for Transracial Adoption", subLabel: "bla bla", href: "preparing-for-transracial-adoption" },
+            { label: "Is Special Needs Adoption Right for You?", subLabel: "bla bla", href: "is-special-needs-adoption-right-for-you" },
+            { label: "Termination of Parental Rights", subLabel: "bla bla", href: "termination-of-parental-rights" },
+            { label: "Finalizing an Adoption in Alabama", subLabel: "bla bla", href: "finalizing-an-adoption-in-alabama" },
+            { label: "Alabama Adoption Laws", subLabel: "bla bla", href: "alabama-adoption-laws" },
+            { label: "Adoption in Alabama", subLabel: "bla bla", href: "adoption-in-alabama" },
+            { label: "Adoption Tips", subLabel: "bla bla", href: "adoption-tips" },
+            { label: "Resources", subLabel: "bla bla", href: "resources" },
         ]
+
+
+
+
+
+
+
+
+
+
+
 
 
     },
