@@ -9,7 +9,15 @@ function AdoptionServices() {
         <Layout>
             <Box mt="8" mb="72">
                 <Container maxW='container.lg'>
+                <Row gutter={40}>
 
+<Col md={9} sm={8} xs={12}>
+
+</Col>
+<Col md={3} sm={4} xs={12} >
+
+</Col>
+</Row>
                 </Container>
             </Box>
 
