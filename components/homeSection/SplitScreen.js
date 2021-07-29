@@ -9,6 +9,20 @@ import {
 } from '@chakra-ui/react';
 
 export default function SplitScreen() {
+
+
+  var imagesArray = [
+    'banner/banner-0.jpg',
+    'banner/banner-1.jpg',
+    'banner/banner-2.jpg',
+    'banner/banner-3.jpg',
+    'banner/banner-4.jpg',
+    'banner/banner-5.jpg',
+    'banner/banner-6.jpg',
+  ];
+  var randomNumber = Math.floor(Math.random() * imagesArray.length);
+  var SrcImage = imagesArray[randomNumber];
+
   return (
     <Stack minH={'10vh'} direction={{ base: 'column', md: 'row' }}>
       <Flex p={8} flex={1} align={'center'} justify={'center'} bgColor={"blackAlpha.50"}>
@@ -24,8 +38,8 @@ export default function SplitScreen() {
                 position: 'absolute',
                 bottom: 1,
                 left: 0,
-                //   bg: 'blue.400',
                 //   zIndex: -1,
+                //   bg: 'blue.400',
               }}>
               Christian Alliance
             </Text>
@@ -56,7 +70,7 @@ export default function SplitScreen() {
           alt={'Banner Image'}
           objectFit={'cover'}
           src={
-            'https://images.unsplash.com/photo-1540429071038-04d88623bc9e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80'
+            SrcImage
           }
         />
       </Flex>

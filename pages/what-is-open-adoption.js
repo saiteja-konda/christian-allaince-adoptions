@@ -9,15 +9,29 @@ function AdoptionServices() {
         <Layout>
             <Box mt="8" mb="72">
                 <Container maxW='container.lg'>
-                <Row gutter={40}>
+                    <Row gutter={40}>
 
-<Col md={9} sm={8} xs={12}>
+                        <Col md={9} sm={8} xs={12}>
+                            <Heading color="blue.600" pt="4" pb="4" as="h4" size="md" >
+                                HEADING GOES HERE
+                            </Heading>
 
-</Col>
-<Col md={3} sm={4} xs={12} >
+                            <Text as="p" fontSize="md" mt="4" mb="4">
+                                PARAGRAPH GOES HERE
+                            </Text>
 
-</Col>
-</Row>
+                            <Text as="p" fontSize="md" mt="4" mb="4" ml="38">
+                                <UnorderedList>
+                                    <ListItem>
+                                        LIST ITEMS GOES HERE
+                                    </ListItem>
+                                </UnorderedList>
+                            </Text>
+                        </Col>
+                        <Col md={3} sm={4} xs={12} >
+
+                        </Col>
+                    </Row>
                 </Container>
             </Box>
 

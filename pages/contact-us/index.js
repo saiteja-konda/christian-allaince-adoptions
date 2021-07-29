@@ -1,5 +1,6 @@
 import React from 'react'
 import Layout from '../../components/core/Layout'
+import { GrLocation, GrMapLocation } from 'react-icons/gr'
 import {
     Box,
     Flex,
@@ -16,6 +17,7 @@ import {
     IconProps,
     Textarea,
     Icon,
+    Center,
 } from '@chakra-ui/react';
 
 
@@ -25,21 +27,31 @@ function ContactUs() {
             <Box position={'relative'}>
                 <Container
                     as={SimpleGrid}
-                    maxW={'7xl'}
-                    columns={{ base: 1, md: 2 }}
-                    spacing={{ base: 10, lg: 32 }}
-                    py={{ base: 10, sm: 20, lg: 32 }}>
-                    <Stack spacing={{ base: 10, md: 20 }}>
+                    maxW={'xl'}
+                    py={{ base: 10, sm: 20, lg: 32 }}
+                >
+                    <Center>
                         <Heading
-                            lineHeight={1.1}
-                            fontSize={{ base: '3xl', sm: '4xl', md: '5xl', lg: '6xl' }}
-                        >
+                            color={'gray.800'}
+                            fontSize={{ base: '2xl', sm: '3xl', md: '4xl' }}>
+                            Our Address
                         </Heading>
-                        <Stack direction={'row'} spacing={4} align={'center'}>
-
-                        </Stack>
-                    </Stack>
-
+                    </Center>
+                    <Center>
+                        <Box mb="152.24">
+                            <br />
+                            <br />
+                            {/* <Center>
+                                <GrLocation />
+                            </Center> */}
+                             Address : 165 St Emanuel St, Mobile, AL 36602
+                            <br />
+                            <br />
+                            Phone : +1 781 786 4586
+                            <br />
+                            <br />
+                            Email : info@christianallainceadopt.com</Box>
+                    </Center>
                     <Stack
                         bg={'gray.50'}
                         rounded={'xl'}

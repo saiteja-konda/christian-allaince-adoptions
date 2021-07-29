@@ -33,32 +33,19 @@ export const NAV_ITEMS = [
         href: "the-process",
         children: [
             { label: "Find an Adoption Opportunity", subLabel: "bla bla", href: "find-an-adoption-opportunity" },
-            { label: "Need an Adoption Home Study?", subLabel: "bla bla", href: "need-an-adoption-home-study" },
-            { label: "How Much is Adoption?", subLabel: "bla bla", href: "how-much-is-adoption" },
             { label: "How Long Does It Take to Adopt?", subLabel: "bla bla", href: "how-long-does-it-take-to-adopt" },
             { label: "What is Open Adoption?", subLabel: "bla bla", href: "what-is-open-adoption" },
-            { label: "Preparing for Transracial Adoption", subLabel: "bla bla", href: "preparing-for-transracial-adoption" },
             { label: "Is Special Needs Adoption Right for You?", subLabel: "bla bla", href: "is-special-needs-adoption-right-for-you" },
-            { label: "Termination of Parental Rights", subLabel: "bla bla", href: "termination-of-parental-rights" },
             { label: "Finalizing an Adoption in Alabama", subLabel: "bla bla", href: "finalizing-an-adoption-in-alabama" },
             { label: "Alabama Adoption Laws", subLabel: "bla bla", href: "alabama-adoption-laws" },
-            { label: "Adoption in Alabama", subLabel: "bla bla", href: "adoption-in-alabama" },
             { label: "Adoption Tips", subLabel: "bla bla", href: "adoption-tips" },
-            { label: "Resources", subLabel: "bla bla", href: "resources" },
+            // { label: "Need an Adoption Home Study?", subLabel: "bla bla", href: "need-an-adoption-home-study" },
+            // { label: "How Much is Adoption?", subLabel: "bla bla", href: "how-much-is-adoption" },
+            // { label: "Preparing for Transracial Adoption", subLabel: "bla bla", href: "preparing-for-transracial-adoption" },
+            // { label: "Termination of Parental Rights", subLabel: "bla bla", href: "termination-of-parental-rights" },
+            // { label: "Adoption in Alabama", subLabel: "bla bla", href: "adoption-in-alabama" },
+            // { label: "Resources", subLabel: "bla bla", href: "resources" },
         ]
-
-
-
-
-
-
-
-
-
-
-
-
-
     },
     // {
     //     label: 'Are You Pregnant?',
@@ -82,5 +69,4 @@ export const NAV_ITEMS = [
     // },
     // { label: 'Family Camp', href: 'family-camp', },
     { label: 'Contact Us', href: 'contact-us', },
-
 ];

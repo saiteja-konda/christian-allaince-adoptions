@@ -8,6 +8,7 @@ import { Box, Center, Container, Heading, Table, Tbody, Td, Text, Tr } from "@ch
 import { Row, Col } from 'react-simple-flex-grid';
 import "react-simple-flex-grid/lib/main.css";
 import Layout from '../components/core/Layout'
+import WithSpeechBubbles from '../components/Testmonials'
 
 export default function Home() {
   return (
@@ -55,6 +56,7 @@ export default function Home() {
               </Col>
             </Row>
           </Container>
+          <WithSpeechBubbles />
         </Box>
       </Layout>
     </>
